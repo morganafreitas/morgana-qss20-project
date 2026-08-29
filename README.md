@@ -34,9 +34,9 @@ This final project for QSS20X26 analyzes the drivers of commute duration in the 
   - Splits results into two forest plots — mode effects, and zone-level/trade-off effects — since Rail transit's large coefficient compresses the scale for the policy-relevant variables
   - Computes conditional and unconditional ICC to assess how much of the variance in commute duration is zone-structured versus individual/trip-level
 - Coding notes (see code for more detail):
-  - Car (driver) is the mode reference category on both statistical grounds (largest n, stable baseline) and policy grounds (legible transit-vs-auto comparisons)
-  - The individual choice trade-off forest plot caption reports each z-scored predictor's actual standard deviation in original units (jobs per household, cars, US$/month) alongside the coefficients, so a "1 SD" effect is interpretable rather than only measurable
-  - `job_housing_ratio` did not reach significance (p ≈ 0.1, CI crosses zero), likely reflecting collinearity with `jobs_accessible_per_household` and a low effective sample size for a zone-constant predictor
+  - Car (driver) is the mode reference category for statistical (largest n) and policy reasons (transit-vs-auto comparisons)
+  - The individual choice trade-off forest plot caption reports each z-scored predictor's actual standard deviation in original units (jobs per household, cars, US$/month) alongside the coefficients.
+  - `job_housing_ratio` did not reach significance (p = 0.1, CI crosses zero), likely reflecting collinearity with `jobs_accessible_per_household` and a low effective sample size for a zone-constant predictor
 - Outputs:
   - `transportation_access.png`: forest plot of mode effects (relative to Car (driver))
   - `job_tradeoff.png`: forest plot of zone-level and individual choice trade-off effects (job-housing ratio, jobs accessible, car ownership, household income)
