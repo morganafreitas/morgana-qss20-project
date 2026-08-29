@@ -1,3 +1,5 @@
+# How Different Factors Affect Commuting Time in São Paulo Metropolitan Region (RMSP)
+
 This project analyzes the drivers of commute duration in the São Paulo Metropolitan Region (RMSP), Brazil. The project asks how the relative influence of housing/job distribution policy, transportation (transit access) policy, and individual-level individual choice trade-off variables (car ownership and income) compares in explaining commuting time, using a mixed-effects regression with a random intercept for home zone.
 
 ## Data Sources 
