@@ -2,7 +2,7 @@
 
 This project analyzes the drivers of commute duration in the São Paulo Metropolitan Region (RMSP), Brazil. The project asks how the relative influence of housing/job distribution policy, transportation (transit access) policy, and individual-level individual choice trade-off variables (car ownership and income) compares in explaining commuting time, using a mixed-effects regression with a random intercept for home zone.
 
-## Data Sources 
+# Data  
 <b>• METRO Origin-Destination (OD) Survey 2023 ([Banco2023_divulgacao_190225.sav](final_project_data/Banco2023_divulgacao_190225.sav))</b>: Trip-level records, including trip duration, origin/destination.  zone, transport mode, and respondent characteristics. Codebook: [Layout_BD_OD2023_190225.xlsx](final_project_data/Layout_BD_OD2023_190225.xlsx) <br>
 <b>• RAIS ([rais_rmsp.csv](final_prokect_data/rais_rmsp.csv), microdados_estabelecimentos, via BigQuery / Base dos Dados)</b>: Job counts by establishment, filtered to RMSP municipalities. <br>
 <b>• IBGE 2022 Census ([Agregados_por_setores_basico_BR](final_project_data/Agregados_por_setores_basico_BR.csv))</b>: Household counts by census tract <br>
