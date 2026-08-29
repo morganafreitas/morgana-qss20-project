@@ -7,5 +7,5 @@ This project analyzes the drivers of commute duration in the São Paulo Metropol
 <b>• Zone/district crosswalks ([Corresp2017_2023_190225.xlsx](final_project_data/Corresp2017_2023_190225.xlsx))</b>: Bridges OD survey zones, RAIS municipalities/districts, and IBGE census tracts to a common zone geography <br>
 
 ## Notebooks
-• [00_pull_merge](code/00_pull_merge) loads the raw input files (RAIS jobs, IBGE census, OD survey, zone crosswalk), builds job_housing_ratio and jobs_accessible_40min, and merges everything into model_df for the analyze notebook. <br>
-• [01_analyze](code/01_analyze) runs diagnostics on model_df, fits the mixed effects regression, and builds the forest plots and ICC calculations.
+• [00_pull_merge](code/00_pull_merge.ipynb) loads the raw input files (RAIS jobs, IBGE census, OD survey, zone crosswalk), builds job_housing_ratio and jobs_accessible_40min, and merges everything into model_df for the analyze notebook. <br>
+• [01_analyze](code/01_analyze.ipynb) runs diagnostics on model_df, fits the mixed effects regression, and builds the forest plots and ICC calculations.
